@@ -1,23 +1,21 @@
 import React from 'react';
 import { saveAs } from 'file-saver';
+import { Button } from 'react-bootstrap';
 
 function Recorder() {
     
     // style for stop button
     const stopStyle = {
       color: "black",
-      height: "45px",
-      width: "45px",
+      height: "50px",
+      width: "50px",
     }
 
     // style for start button
     const startStyle = {
       height: "50px",
       width: "50px",
-      backgroundColor: "red",
-      borderRadius: "50%",
       marginRight:"2em",
-      color:"white"
     }
 
     const MicRecorder = require('mic-recorder-to-mp3');
@@ -55,11 +53,9 @@ function Recorder() {
     return (
   
       <div>
-
-
         <button style = {startStyle} onClick = {record_start}>Start</button>
       
-        <button style = {stopStyle} onClick = {record_stop}>Stop</button>
+        <button style = {stopStyle} onClick = {record_stop}><p>Stop</p></button>
 
         {/* <button style = {stopStyle} onClick = {Play}>Play</button> */}
  
