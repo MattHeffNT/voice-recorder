@@ -1,23 +1,23 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Recorder from './Recorder.js';
+import spiral from  './spiral.png';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={spiral} className="App-logo" alt="logo" />
+        <h1> Indigital Voice Recorder</h1>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Press the record button when you're ready to start
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+
+
+        <br></br>
+        <Recorder></Recorder>
+
       </header>
     </div>
   );
