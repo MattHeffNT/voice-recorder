@@ -11,7 +11,7 @@ function App() {
         <img src={spiral} className="App-logo" alt="logo" />
         <h1> Indigital Voice Recorder</h1>
         <p>
-          Press the record button when you're ready to start
+          Press the start button when you're ready to start recording
         </p>
 
 
