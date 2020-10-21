@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/voice-recorder/static/css/main.523f09c5.chunk.css",
-    "main.js": "/voice-recorder/static/js/main.66e6c112.chunk.js",
-    "main.js.map": "/voice-recorder/static/js/main.66e6c112.chunk.js.map",
+    "main.js": "/voice-recorder/static/js/main.c26825b6.chunk.js",
+    "main.js.map": "/voice-recorder/static/js/main.c26825b6.chunk.js.map",
     "runtime-main.js": "/voice-recorder/static/js/runtime-main.0345fda4.js",
     "runtime-main.js.map": "/voice-recorder/static/js/runtime-main.0345fda4.js.map",
     "static/js/2.f6ef3bef.chunk.js": "/voice-recorder/static/js/2.f6ef3bef.chunk.js",
     "static/js/2.f6ef3bef.chunk.js.map": "/voice-recorder/static/js/2.f6ef3bef.chunk.js.map",
     "index.html": "/voice-recorder/index.html",
-    "precache-manifest.3ea612c724967d25b747412bac8c63f4.js": "/voice-recorder/precache-manifest.3ea612c724967d25b747412bac8c63f4.js",
+    "precache-manifest.4caa18961c2e86c3b983b078f46bcfbc.js": "/voice-recorder/precache-manifest.4caa18961c2e86c3b983b078f46bcfbc.js",
     "service-worker.js": "/voice-recorder/service-worker.js",
     "static/css/main.523f09c5.chunk.css.map": "/voice-recorder/static/css/main.523f09c5.chunk.css.map",
     "static/js/2.f6ef3bef.chunk.js.LICENSE.txt": "/voice-recorder/static/js/2.f6ef3bef.chunk.js.LICENSE.txt",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.0345fda4.js",
     "static/js/2.f6ef3bef.chunk.js",
     "static/css/main.523f09c5.chunk.css",
-    "static/js/main.66e6c112.chunk.js"
+    "static/js/main.c26825b6.chunk.js"
   ]
 }
