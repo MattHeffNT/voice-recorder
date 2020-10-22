@@ -1,0 +1,31 @@
+#rec {
+    height: 50px;
+    width: 50px; 
+    margin-right:2em;
+    background-color: #E5E5E5;
+    border: none;
+    border-radius: 10%;
+}
+
+#stop {
+    height: 50px;
+    width: 50px; 
+    background-color: #E5E5E5;
+    border: none;
+    border-radius: 10%;
+}
+
+/* show red flashing when recording starts */
+.flashing {
+    animation: yo infinite 1s linear;
+}
+
+/* animation of flashing */
+@keyframes yo {
+    from {
+      background-color: #E5E5E5;
+    }
+    to {
+        background-color:red;
+    }
+  }
