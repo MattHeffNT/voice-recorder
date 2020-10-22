@@ -1,46 +1,33 @@
 import React from 'react';
 import { saveAs } from 'file-saver';
 import { Button } from 'react-bootstrap';
+import flashing from './flashing.css'
 
 function Recorder() {
     
-    // style for stop button
-    const stopStyle = {
-      color: "black",
-      height: "50px",
-      width: "50px",
-    }
-
-    // style for start button
-    const startStyle = {
-      height: "50px",
-      width: "50px",
-      marginRight:"2em",
-    }
-
     const MicRecorder = require('mic-recorder-to-mp3');
     const FileSaver = require('file-saver');
-    // New instance
+
     const recorder = new MicRecorder({
         bitRate: 128
     });    
 
-    // add function to show that recording is in progress, toggle off when stop is pressed
+    // start recording function
     function record_start() {
-      // start recording
+      // toggle colour flashing
+      document.querySelector('#rec').classList.add("flashing");
       recorder.start().then(() => {
-        // something else
       }).catch((e) => {
         console.error(e);
       });
     }
 
+    // stop recording function then save to client device
     function record_stop () {
+      document.querySelector('#rec').classList.remove("flashing");
       recorder
       .stop()
       .getMp3().then(([buffer, blob]) => {
-        // do what ever you want with buffer and blob
-        // Example: Create a mp3 file and play
         var file = new File(buffer, 'voice-recording.mp3', {
           type: blob.type,
           lastModified: Date.now()
@@ -49,17 +36,12 @@ function Recorder() {
       },
     )}
 
-
     return (
   
       <div>
-        <button style = {startStyle} onClick = {record_start}>Start</button>
-      
-        <button style = {stopStyle} onClick = {record_stop}><p>Stop</p></button>
-
-        {/* <button style = {stopStyle} onClick = {Play}>Play</button> */}
- 
-        </div>
+        <button id = "rec"  onClick = {record_start}>Start</button>
+        <button id = "stop" onClick = {record_stop}><p>Stop</p></button>
+      </div>
     );
 }
 
