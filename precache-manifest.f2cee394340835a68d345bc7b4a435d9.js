@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fac1ddca5f4386dafcf0d8f2edbc630a",
+    "revision": "cbbea2be053b9ebd172c5a1f78068c0c",
     "url": "/voice-recorder/index.html"
   },
   {
-    "revision": "d24a27ca899d64cdb4cd",
-    "url": "/voice-recorder/static/css/main.523f09c5.chunk.css"
+    "revision": "bbe35d97c8ccce9af2f1",
+    "url": "/voice-recorder/static/css/main.d8b3d8d9.chunk.css"
   },
   {
-    "revision": "787f36844e8b30245cc9",
-    "url": "/voice-recorder/static/js/2.f6ef3bef.chunk.js"
+    "revision": "ac04e3bf0242e0af9157",
+    "url": "/voice-recorder/static/js/2.e8b596ea.chunk.js"
   },
   {
     "revision": "65075b20798fa24012a1ad453c78c90d",
-    "url": "/voice-recorder/static/js/2.f6ef3bef.chunk.js.LICENSE.txt"
+    "url": "/voice-recorder/static/js/2.e8b596ea.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d24a27ca899d64cdb4cd",
-    "url": "/voice-recorder/static/js/main.c26825b6.chunk.js"
+    "revision": "bbe35d97c8ccce9af2f1",
+    "url": "/voice-recorder/static/js/main.fae8e378.chunk.js"
   },
   {
     "revision": "c8fe20e40599171c8772",
