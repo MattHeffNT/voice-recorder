@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cbbea2be053b9ebd172c5a1f78068c0c",
+    "revision": "0cfdb1de00a2ac270b5d4de02fca740c",
     "url": "/voice-recorder/index.html"
   },
   {
-    "revision": "bbe35d97c8ccce9af2f1",
+    "revision": "3a4e9b9ea8572e6b5bc2",
     "url": "/voice-recorder/static/css/main.d8b3d8d9.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/voice-recorder/static/js/2.e8b596ea.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bbe35d97c8ccce9af2f1",
-    "url": "/voice-recorder/static/js/main.fae8e378.chunk.js"
+    "revision": "3a4e9b9ea8572e6b5bc2",
+    "url": "/voice-recorder/static/js/main.18a17b62.chunk.js"
   },
   {
     "revision": "c8fe20e40599171c8772",
