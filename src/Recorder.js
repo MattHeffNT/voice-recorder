@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from 'react';
 import { saveAs } from 'file-saver';
 import { Button } from 'react-bootstrap';
